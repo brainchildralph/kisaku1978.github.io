@@ -1,4 +1,5 @@
 #!/bin/bash
+# brainchildralph add comment test
 ip=$(ifconfig eth0 | grep inet | awk '{print $2}' | sed 's/addr://')
 port=4444
 work=/work/jekyll/kisaku1978.github.io
